@@ -1,0 +1,22 @@
+input,
+textarea {
+    display: block;
+    margin: .3em 0 .5em -.75em;
+    padding: .5em .75em;
+    border: 0;
+    background: #eee;
+    color: $pri;
+    font-size: 1em;
+    line-height: 1.4;
+    width: calc(100% + 1.5em);
+}
+
+textarea {
+    resize: none;
+    height: 5em;
+}
+
+label {
+    display: block;
+    margin: 1.4em 0 1.65em;
+}

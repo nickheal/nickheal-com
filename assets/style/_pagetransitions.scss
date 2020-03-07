@@ -1,0 +1,39 @@
+.main-nav-enter-active {
+    transition: transform 500ms, opacity 500ms;
+    transform: translateY(0);
+    opacity: 1;
+}
+.main-nav-leave-active {
+    transition: transform 500ms, opacity 500ms;
+    transform: translateY(0);
+    opacity: 1;
+}
+.main-nav-enter {
+    transform: translateY(-10%);
+    opacity: 0;
+}
+.main-nav-leave-to {
+    transform: translateY(10%);
+    opacity: 0;
+}
+
+
+
+.page-enter-active {
+    transition: transform 500ms, opacity 500ms;
+    transform: translateY(0);
+    opacity: 1;
+}
+.page-leave-active {
+    transition: transform 500ms, opacity 500ms;
+    transform: translateY(0);
+    opacity: 1;
+}
+.page-enter {
+    transform: translateY(10%);
+    opacity: 0;
+}
+.page-leave-to {
+    transform: translateY(-10%);
+    opacity: 0;
+}
