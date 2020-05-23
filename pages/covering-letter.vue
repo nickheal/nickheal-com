@@ -94,8 +94,8 @@ import CoveringletterIcon from '~/components/active-icons/coveringletter-icon.vu
 
 export default {
   components: {
-    CoveringletterIcon
-  }
+    CoveringletterIcon,
+  },
 }
 </script>
 

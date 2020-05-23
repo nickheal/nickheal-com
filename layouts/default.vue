@@ -9,8 +9,8 @@
 import CoreNav from '~/components/CoreNav.vue'
 export default {
   components: {
-    CoreNav
-  }
+    CoreNav,
+  },
 }
 </script>
 

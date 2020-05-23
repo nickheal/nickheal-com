@@ -91,8 +91,8 @@ import CvIcon from '~/components/active-icons/cv-icon.vue'
 
 export default {
   components: {
-    CvIcon
-  }
+    CvIcon,
+  },
 }
 </script>
 

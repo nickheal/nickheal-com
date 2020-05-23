@@ -7,7 +7,7 @@
       x="0px"
       y="0px"
       viewBox="0 0 151 178.5"
-      style="enable-background:new 0 0 151 178.5;"
+      style="enable-background: new 0 0 151 178.5;"
       xml:space="preserve"
     >
       <style type="text/css">
@@ -176,15 +176,15 @@ export default {
   props: {
     colorMode: {
       default: '',
-      type: String
-    }
+      type: String,
+    },
   },
 
   computed: {
     color() {
       return this.colorMode
-    }
-  }
+    },
+  },
 }
 </script>
 

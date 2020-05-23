@@ -19,30 +19,30 @@ export default {
   components: {
     CoveringletterIcon,
     CvIcon,
-    ContactIcon
+    ContactIcon,
   },
 
   props: {
     link: {
       required: true,
-      type: String
+      type: String,
     },
     content: {
       required: true,
-      type: String
+      type: String,
     },
     icon: {
       required: true,
-      type: String
+      type: String,
     },
     mode: {
       required: true,
-      type: String
+      type: String,
     },
     active: {
       required: true,
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
 
   computed: {
@@ -58,8 +58,8 @@ export default {
 
     iconColor() {
       return this.mode === 'compressed' ? 'white' : 'natural'
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -10,8 +10,8 @@
       <form
         v-if="
           !formSubmitSuccess &&
-            !formSubmitNetworkIssue &&
-            !formSubmitServerIssue
+          !formSubmitNetworkIssue &&
+          !formSubmitServerIssue
         "
         class="wrap"
         @submit.prevent="submitContactForm"
@@ -70,7 +70,7 @@ import ContactIcon from '~/components/active-icons/contact-icon.vue'
 
 export default {
   components: {
-    ContactIcon
+    ContactIcon,
   },
 
   data() {
@@ -81,7 +81,7 @@ export default {
 
       formName: null,
       formEmail: null,
-      formMessage: null
+      formMessage: null,
     }
   },
 
@@ -91,13 +91,13 @@ export default {
         method: 'POST',
         mode: 'cors',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           name: this.formName,
           email: this.formEmail,
-          message: this.formMessage
-        })
+          message: this.formMessage,
+        }),
       })
         .then((res) => {
           if (res.ok) {
@@ -115,8 +115,8 @@ export default {
       this.formSubmitSuccess = false
       this.formSubmitNetworkIssue = false
       this.formSubmitServerIssue = false
-    }
-  }
+    },
+  },
 }
 </script>
 

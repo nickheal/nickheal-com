@@ -15,15 +15,15 @@ export default {
   props: {
     colorMode: {
       default: '',
-      type: String
-    }
+      type: String,
+    },
   },
 
   computed: {
     color() {
       return this.colorMode
-    }
-  }
+    },
+  },
 }
 </script>
 

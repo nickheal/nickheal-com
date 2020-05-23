@@ -12,7 +12,13 @@
         y1="5"
         x2="144.5"
         y2="5"
-        style="fill:none;stroke:#777;stroke-linecap:round;stroke-miterlimit:10;stroke-width:10px"
+        style="
+          fill: none;
+          stroke: #777;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 10px;
+        "
       />
       <line
         class="bodytext"
@@ -20,7 +26,13 @@
         y1="34"
         x2="143.5"
         y2="34"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:15px"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 15px;
+        "
       />
       <line
         class="bodytext"
@@ -28,7 +40,13 @@
         y1="68"
         x2="143.5"
         y2="68"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:15px"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 15px;
+        "
       />
       <line
         class="bodytext"
@@ -36,7 +54,13 @@
         y1="101"
         x2="143.5"
         y2="101"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:15px"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 15px;
+        "
       />
       <line
         class="bodytext"
@@ -44,7 +68,13 @@
         y1="136"
         x2="143.5"
         y2="136"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:15px"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 15px;
+        "
       />
       <line
         class="bodytext"
@@ -52,7 +82,13 @@
         y1="171"
         x2="143.5"
         y2="171"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:15px"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 15px;
+        "
       />
       <line
         class="sidebar"
@@ -60,7 +96,13 @@
         y1="25"
         x2="25"
         y2="141"
-        style="fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:50px"
+        style="
+          fill: none;
+          stroke: #fff;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 50px;
+        "
       />
       <line
         class="sidebar"
@@ -68,7 +110,13 @@
         y1="35"
         x2="25"
         y2="136"
-        style="fill:none;stroke:#0F4F8D;stroke-linecap:round;stroke-miterlimit:10;stroke-width:30px"
+        style="
+          fill: none;
+          stroke: #0f4f8d;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 30px;
+        "
       />
     </svg>
   </div>
@@ -79,15 +127,15 @@ export default {
   props: {
     colorMode: {
       default: '',
-      type: String
-    }
+      type: String,
+    },
   },
 
   computed: {
     color() {
       return this.colorMode
-    }
-  }
+    },
+  },
 }
 </script>
 

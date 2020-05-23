@@ -31,20 +31,20 @@ export default {
   transition: 'main-nav',
 
   components: {
-    NavButton
+    NavButton,
   },
 
   data() {
     return {
-      route: this.$route.path
+      route: this.$route.path,
     }
   },
 
   computed: {
     currentPage() {
       return this.$route.path.substring(1, this.$route.path.length)
-    }
-  }
+    },
+  },
 }
 </script>
 
